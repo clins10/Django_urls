@@ -18,4 +18,6 @@ from django.urls import path
 
 urlpatterns = [
     path('zuri-admin/', admin.site.urls),
+    # path('clins10/', admin.site.urls),
+    # path('', include('clins10.urls')),
 ]
